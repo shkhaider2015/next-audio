@@ -1,0 +1,20 @@
+.container {
+    border: 1px solid #0fc51f;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+}
+
+.container input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #0fc51f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+.container  input[type=file]::file-selector-button:hover {
+    background: #0fc51f;
+  }
